@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Book Conference Room">ba54d0ab47e711105c9fb616536d43c2</sc_cat_item>
+        <sc_catalog display_value="Book Conference Room">af3963d3476711105c9fb616536d4339</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-09 14:04:41</sys_created_on>
+        <sys_id>df055cab47e711105c9fb616536d43e3</sys_id>
+        <sys_name>Book Conference Room.Book Conference Room</sys_name>
+        <sys_package display_value="Conference Room Booking" source="x_795232_conferenc">59399a5b472311105c9fb616536d4368</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_df055cab47e711105c9fb616536d43e3</sys_update_name>
+    </sc_cat_item_catalog>
+</record_update>

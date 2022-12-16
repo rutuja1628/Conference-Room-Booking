@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>catalog_book_conference_room</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-09 10:54:09</sys_created_on>
+        <sys_id>94796f93476711105c9fb616536d4333</sys_id>
+        <sys_name>Book Conference Room View</sys_name>
+        <sys_package display_value="Conference Room Booking" source="x_795232_conferenc">59399a5b472311105c9fb616536d4368</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name>sys_ui_view_94796f93476711105c9fb616536d4333</sys_update_name>
+        <title>Book Conference Room View</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

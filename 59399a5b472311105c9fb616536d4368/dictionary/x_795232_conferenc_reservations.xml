@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4a7be357476711105c9fb616536d4310" label="Reservations" max_length="40" name="x_795232_conferenc_reservations" type="collection">
+        <element label="Booked By" max_length="40" name="booked_by" reference="sys_user" type="reference"/>
+        <element label="Branch" max_length="32" name="branch" reference="x_795232_conferenc_location" type="reference"/>
+        <element label="End time" max_length="40" name="end_time" type="glide_date_time"/>
+        <element label="Floor" max_length="10" name="floor" type="integer"/>
+        <element display="true" label="Room" max_length="10" name="room_no" type="string"/>
+        <element label="Start time" max_length="40" name="start_time" type="glide_date_time"/>
+        <index name="index">
+            <element name="branch"/>
+        </index>
+    </element>
+</database>
