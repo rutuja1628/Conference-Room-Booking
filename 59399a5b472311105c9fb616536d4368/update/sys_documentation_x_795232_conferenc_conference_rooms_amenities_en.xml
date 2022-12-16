@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="amenities" label="Projector available" language="en" table="x_795232_conferenc_conference_rooms">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>amenities</element>
+            <help/>
+            <hint/>
+            <label>Projector available</label>
+            <language>en</language>
+            <name>x_795232_conferenc_conference_rooms</name>
+            <plural>Projector availables</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-09 05:17:53</sys_created_on>
+            <sys_name>Projector available</sys_name>
+            <sys_package display_value="Conference Room Booking" source="x_795232_conferenc">59399a5b472311105c9fb616536d4368</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+            <sys_update_name>sys_documentation_x_795232_conferenc_conference_rooms_amenities_en</sys_update_name>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
