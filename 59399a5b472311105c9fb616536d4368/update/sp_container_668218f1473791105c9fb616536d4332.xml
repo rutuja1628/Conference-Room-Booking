@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Conference Room Homepage - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="homepage">38505035473791105c9fb616536d4377</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-16 13:40:02</sys_created_on>
+        <sys_id>668218f1473791105c9fb616536d4332</sys_id>
+        <sys_name>Conference Room Homepage - Container 1</sys_name>
+        <sys_package display_value="Conference Room Booking" source="x_795232_conferenc">59399a5b472311105c9fb616536d4368</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name>sp_container_668218f1473791105c9fb616536d4332</sys_update_name>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>

@@ -1,0 +1,2211 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>checkdurationforbooking</internal_name>
+        <label_cache>[{"name":"{{action.from}}","label":"action➛From","type":"action","ref":"","reference_display":"","base_type":"glide_date_time","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Calendar Date/Time","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"calendar_date_time","uiUniqueId":"84e159ac-fea6-4c60-95cb-15ed9dbc40ba"}},{"name":"{{action.to}}","label":"action➛to","type":"action","ref":"","reference_display":"","base_type":"glide_date_time","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Calendar Date/Time","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"calendar_date_time","uiUniqueId":"caf9110e-1bd6-4e99-ad1b-0a43dd38b808"}},{"name":"{{step[6322acc7-fdb0-43b3-a38b-133ecac2dca7].hours}}","label":"step➛Script step➛Hours","type":"step","ref":"","reference_display":"","base_type":"number","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[6322acc7-fdb0-43b3-a38b-133ecac2dca7].morethan3}}","label":"step➛Script step➛morethan3","type":"step","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","uiUniqueId":"637b9d09-2bab-4438-b902-536dcff9e100"}}]</label_cache>
+        <master_snapshot>1ae96fad471021105c9fb616536d43bd</master_snapshot>
+        <name>checkDurationforBooking</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 13:50:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fa5e9464475021105c9fb616536d43bc</sys_id>
+        <sys_name>checkDurationforBooking</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Conference Room Booking" source="x_795232_conferenc">59399a5b472311105c9fb616536d4368</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_fa5e9464475021105c9fb616536d43bc</sys_update_name>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=fa5e9464475021105c9fb616536d43bc"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fa5e9464475021105c9fb616536d43bc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>fa5e9464475021105c9fb616536d43bc</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:51</sys_created_on>
+        <sys_id>45e96fad471021105c9fb616536d4322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:13:51</sys_updated_on>
+        <value>0</value>
+        <variable display_value="morethan3">5f58a76d471021105c9fb616536d434e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>fa5e9464475021105c9fb616536d43bc</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 19:29:44</sys_created_on>
+        <sys_id>b5fb69e847d421105c9fb616536d4338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-06 19:29:44</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">adfb69e847d421105c9fb616536d4330</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>fa5e9464475021105c9fb616536d43bc</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 19:29:44</sys_created_on>
+        <sys_id>bdfb69e847d421105c9fb616536d4338</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rutuja</sys_updated_by>
+        <sys_updated_on>2023-01-12 07:15:31</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
+        <variable display_value="Action Status">65fb69e847d421105c9fb616536d432c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fa5e9464475021105c9fb616536d43bc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>morethan3</field>
+        <id>fa5e9464475021105c9fb616536d43bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:51</sys_created_on>
+        <sys_id>c1e96fad471021105c9fb616536d4322</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>rutuja</sys_updated_by>
+        <sys_updated_on>2023-01-12 07:16:51</sys_updated_on>
+        <table>var__m_sys_hub_action_output_fa5e9464475021105c9fb616536d43bc</table>
+        <value>{{step[6322acc7-fdb0-43b3-a38b-133ecac2dca7].morethan3}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>fa5e9464475021105c9fb616536d43bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 19:29:44</sys_created_on>
+        <sys_id>35fb69e847d421105c9fb616536d4338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-06 19:29:44</sys_updated_on>
+        <table>var__m_sys_hub_action_output_fa5e9464475021105c9fb616536d43bc</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>fa5e9464475021105c9fb616536d43bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 19:29:44</sys_created_on>
+        <sys_id>7dfb69e847d421105c9fb616536d4337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-06 19:29:44</sys_updated_on>
+        <table>var__m_sys_hub_action_output_fa5e9464475021105c9fb616536d43bc</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=fa5e9464475021105c9fb616536d43bc^sys_idNOT IN768664ac47d021105c9fb616536d438f"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="checkDurationforBooking">fa5e9464475021105c9fb616536d43bc</action>
+        <cid>6322acc7-fdb0-43b3-a38b-133ecac2dca7</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 14:26:26</sys_created_on>
+        <sys_id>768664ac47d021105c9fb616536d438f</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_updated_by>rutuja</sys_updated_by>
+        <sys_updated_on>2023-01-12 07:15:31</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=768664ac47d021105c9fb616536d438f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>768664ac47d021105c9fb616536d438f</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 14:26:27</sys_created_on>
+        <sys_id>038664ac47d021105c9fb616536d43b1</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_updated_by>rutuja</sys_updated_by>
+        <sys_updated_on>2023-01-12 07:15:31</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  var glideFrom = new GlideDateTime(inputs.From);
+  var glideTo = new GlideDateTime(inputs.to);
+  var dur = GlideDateTime.subtract(glideFrom, glideTo);
+
+  var hour = dur.getByFormat('HH'); //get hour part
+  hour=parseInt(hour,10);
+  gs.info("hour::7 "+hour);
+  gs.info("typeof hour::"+ typeof(hour));  
+  gs.info("hour==4 "+ hour==4);
+  if(hour&gt;=3){
+    gs.info("line 10::");
+    outputs.morethan3 =true;
+    gs.info("outputs.moreThan3 : "+outputs.morethan3);
+  }
+  else
+  {outputs.morethan3= false; 
+  }
+  gs.info("outputs.moreThan3 : "+outputs.morethan3);
+
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>768664ac47d021105c9fb616536d438f</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 14:26:27</sys_created_on>
+        <sys_id>4f8664ac47d021105c9fb616536d43b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-06 14:26:27</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=768664ac47d021105c9fb616536d438f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>768664ac47d021105c9fb616536d438f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 14:26:27</sys_created_on>
+        <sys_id>0b8664ac47d021105c9fb616536d43b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-06 14:26:27</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>From</field>
+        <id>768664ac47d021105c9fb616536d438f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 14:26:27</sys_created_on>
+        <sys_id>cb8664ac47d021105c9fb616536d43b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-06 14:26:27</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_768664ac47d021105c9fb616536d438f</table>
+        <value>{{action.from}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>768664ac47d021105c9fb616536d438f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 14:26:27</sys_created_on>
+        <sys_id>cb8664ac47d021105c9fb616536d43b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-06 14:26:27</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>to</field>
+        <id>768664ac47d021105c9fb616536d438f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 14:26:27</sys_created_on>
+        <sys_id>8f8664ac47d021105c9fb616536d43b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-06 14:26:27</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_768664ac47d021105c9fb616536d438f</table>
+        <value>{{action.to}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_768664ac47d021105c9fb616536d438f^id=768664ac47d021105c9fb616536d438f"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=768664ac47d021105c9fb616536d438f"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=768664ac47d021105c9fb616536d438f^sys_idNOT IN4e0ca9e847d421105c9fb616536d4374,8e0ca9e847d421105c9fb616536d436c"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=calendar_date_time,uiTypeLabel=Calendar Date/Time</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>to</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">calendar_date_time</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">768664ac47d021105c9fb616536d438f</model>
+        <model_id>768664ac47d021105c9fb616536d438f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_768664ac47d021105c9fb616536d438f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 19:30:02</sys_created_on>
+        <sys_id>4e0ca9e847d421105c9fb616536d4374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-06 19:30:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=calendar_date_time,uiTypeLabel=Calendar Date/Time</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>From</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">calendar_date_time</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">768664ac47d021105c9fb616536d438f</model>
+        <model_id>768664ac47d021105c9fb616536d438f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_768664ac47d021105c9fb616536d438f</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 19:30:01</sys_created_on>
+        <sys_id>8e0ca9e847d421105c9fb616536d436c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-06 19:30:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=768664ac47d021105c9fb616536d438f^sys_idNOT IN0c05a3a9471021105c9fb616536d435d"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=637b9d09-2bab-4438-b902-536dcff9e100</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>morethan3</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>morethan3</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">768664ac47d021105c9fb616536d438f</model>
+        <model_id>768664ac47d021105c9fb616536d438f</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_768664ac47d021105c9fb616536d438f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 06:52:28</sys_created_on>
+        <sys_id>0c05a3a9471021105c9fb616536d435d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>rutuja</sys_updated_by>
+        <sys_updated_on>2023-01-12 07:15:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=768664ac47d021105c9fb616536d438f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_768664ac47d021105c9fb616536d438f^sys_idNOT IN4805a3a9471021105c9fb616536d4360"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>morethan3</element>
+        <help/>
+        <hint/>
+        <label>morethan3</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_768664ac47d021105c9fb616536d438f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 06:52:28</sys_created_on>
+        <sys_id>4805a3a9471021105c9fb616536d4360</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Conference Room Booking" source="x_795232_conferenc">59399a5b472311105c9fb616536d4368</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>rutuja</sys_updated_by>
+        <sys_updated_on>2023-01-12 07:15:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=fa5e9464475021105c9fb616536d43bc^sys_idNOT IN3bfdeba1475021105c9fb616536d434e,b7fdeba1475021105c9fb616536d4343"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_date_time,uiTypeLabel=Date/Time,uiUniqueId=caf9110e-1bd6-4e99-ad1b-0a43dd38b808</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>to</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_date_time</internal_type>
+        <label>to</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="checkDurationforBooking">fa5e9464475021105c9fb616536d43bc</model>
+        <model_id>fa5e9464475021105c9fb616536d43bc</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_fa5e9464475021105c9fb616536d43bc</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:31:47</sys_created_on>
+        <sys_id>3bfdeba1475021105c9fb616536d434e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:31:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3bfdeba1475021105c9fb616536d434e"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_date_time,uiTypeLabel=Date/Time,uiUniqueId=84e159ac-fea6-4c60-95cb-15ed9dbc40ba</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>from</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_date_time</internal_type>
+        <label>From</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="checkDurationforBooking">fa5e9464475021105c9fb616536d43bc</model>
+        <model_id>fa5e9464475021105c9fb616536d43bc</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_fa5e9464475021105c9fb616536d43bc</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:31:47</sys_created_on>
+        <sys_id>b7fdeba1475021105c9fb616536d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:31:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b7fdeba1475021105c9fb616536d4343"/>
+    <sys_hub_action_output action="delete_multiple" query="model=fa5e9464475021105c9fb616536d43bc^sys_idNOT IN5f58a76d471021105c9fb616536d434e,65fb69e847d421105c9fb616536d432c,adfb69e847d421105c9fb616536d4330"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=c4439bb2-6917-4cb0-9531-1e4d6d079f07</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>morethan3</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>morethan3</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="checkDurationforBooking">fa5e9464475021105c9fb616536d43bc</model>
+        <model_id>fa5e9464475021105c9fb616536d43bc</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_fa5e9464475021105c9fb616536d43bc</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:07:11</sys_created_on>
+        <sys_id>5f58a76d471021105c9fb616536d434e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:07:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5f58a76d471021105c9fb616536d434e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5f58a76d471021105c9fb616536d434e"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=1cd899ba-2c22-4b45-899f-f05c2a7d4629</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="checkDurationforBooking">fa5e9464475021105c9fb616536d43bc</model>
+        <model_id>fa5e9464475021105c9fb616536d43bc</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_fa5e9464475021105c9fb616536d43bc</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 19:29:44</sys_created_on>
+        <sys_id>65fb69e847d421105c9fb616536d432c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-06 19:29:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=65fb69e847d421105c9fb616536d432c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=65fb69e847d421105c9fb616536d432c"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=00713731-01eb-4668-a09b-298eb7334050,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="checkDurationforBooking">fa5e9464475021105c9fb616536d43bc</model>
+        <model_id>fa5e9464475021105c9fb616536d43bc</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_fa5e9464475021105c9fb616536d43bc</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 19:29:44</sys_created_on>
+        <sys_id>adfb69e847d421105c9fb616536d4330</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:07:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=adfb69e847d421105c9fb616536d4330"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=adfb69e847d421105c9fb616536d4330"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=fa5e9464475021105c9fb616536d43bc"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=fa5e9464475021105c9fb616536d43bc^sys_idNOT IN038664ac47d021105c9fb616536d43b6"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="checkDurationforBooking">fa5e9464475021105c9fb616536d43bc</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 14:26:27</sys_created_on>
+        <sys_id>038664ac47d021105c9fb616536d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-06 14:26:27</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=038664ac47d021105c9fb616536d43b6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_fa5e9464475021105c9fb616536d43bc^sys_idNOT IN77fdeba1475021105c9fb616536d4351,7bfdeba1475021105c9fb616536d4346"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>to</element>
+        <help/>
+        <hint/>
+        <label>to</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_fa5e9464475021105c9fb616536d43bc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:31:47</sys_created_on>
+        <sys_id>77fdeba1475021105c9fb616536d4351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Conference Room Booking" source="x_795232_conferenc">59399a5b472311105c9fb616536d4368</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:31:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>from</element>
+        <help/>
+        <hint/>
+        <label>From</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_fa5e9464475021105c9fb616536d43bc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:31:47</sys_created_on>
+        <sys_id>7bfdeba1475021105c9fb616536d4346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Conference Room Booking" source="x_795232_conferenc">59399a5b472311105c9fb616536d4368</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:31:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_fa5e9464475021105c9fb616536d43bc"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_fa5e9464475021105c9fb616536d43bc^sys_idNOT IN5b58a76d471021105c9fb616536d4351,69fb69e847d421105c9fb616536d4335,e1fb69e847d421105c9fb616536d4330"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>morethan3</element>
+        <help/>
+        <hint/>
+        <label>morethan3</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_fa5e9464475021105c9fb616536d43bc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:07:11</sys_created_on>
+        <sys_id>5b58a76d471021105c9fb616536d4351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Conference Room Booking" source="x_795232_conferenc">59399a5b472311105c9fb616536d4368</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:07:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_fa5e9464475021105c9fb616536d43bc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 19:29:44</sys_created_on>
+        <sys_id>69fb69e847d421105c9fb616536d4335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Conference Room Booking" source="x_795232_conferenc">59399a5b472311105c9fb616536d4368</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-06 19:29:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_fa5e9464475021105c9fb616536d43bc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-06 19:29:44</sys_created_on>
+        <sys_id>e1fb69e847d421105c9fb616536d4330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Conference Room Booking" source="x_795232_conferenc">59399a5b472311105c9fb616536d4368</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-06 19:29:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_fa5e9464475021105c9fb616536d43bc"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=fa5e9464475021105c9fb616536d43bc^sys_idNOT INa6e9afad471021105c9fb616536d434c"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="checkDurationforBooking">fa5e9464475021105c9fb616536d43bc</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"a6e9afad471021105c9fb616536d434c","name":"plan","plan_signature":null}}</plan>
+        <snapshot>0d0e7956471021105c9fb616536d439f</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a6e9afad471021105c9fb616536d434c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>rutuja</sys_updated_by>
+        <sys_updated_on>2023-01-12 07:17:59</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>checkdurationforbooking</internal_name>
+        <label_cache>[{"name":"{{action.from}}","label":"action➛From","type":"action","ref":"","reference_display":"","base_type":"glide_date_time","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Calendar Date/Time","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"calendar_date_time","uiUniqueId":"84e159ac-fea6-4c60-95cb-15ed9dbc40ba"}},{"name":"{{action.to}}","label":"action➛to","type":"action","ref":"","reference_display":"","base_type":"glide_date_time","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","uiTypeLabel":"Calendar Date/Time","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceUiUniqueId":"","sourceType":"","uiType":"calendar_date_time","uiUniqueId":"caf9110e-1bd6-4e99-ad1b-0a43dd38b808"}},{"name":"{{step[6322acc7-fdb0-43b3-a38b-133ecac2dca7].hours}}","label":"step➛Script step➛Hours","type":"step","ref":"","reference_display":"","base_type":"number","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}},{"name":"{{step[6322acc7-fdb0-43b3-a38b-133ecac2dca7].morethan3}}","label":"step➛Script step➛morethan3","type":"step","ref":"","reference_display":"","base_type":"boolean","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","uiUniqueId":"637b9d09-2bab-4438-b902-536dcff9e100"}}]</label_cache>
+        <master>true</master>
+        <name>checkDurationforBooking</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="checkDurationforBooking">fa5e9464475021105c9fb616536d43bc</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1ae96fad471021105c9fb616536d43bd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>rutuja</sys_updated_by>
+        <sys_updated_on>2023-01-12 07:17:58</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=1ae96fad471021105c9fb616536d43bd"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1ae96fad471021105c9fb616536d43bd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>1ae96fad471021105c9fb616536d43bd</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:56</sys_created_on>
+        <sys_id>1ae9afad471021105c9fb616536d4305</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rutuja</sys_updated_by>
+        <sys_updated_on>2023-01-12 07:17:58</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
+        <variable display_value="Action Status">5ae96fad471021105c9fb616536d43f6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>1ae96fad471021105c9fb616536d43bd</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:56</sys_created_on>
+        <sys_id>56e9afad471021105c9fb616536d4305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:13:56</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">12e96fad471021105c9fb616536d43fe</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>1ae96fad471021105c9fb616536d43bd</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:56</sys_created_on>
+        <sys_id>92e9afad471021105c9fb616536d4305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:13:56</sys_updated_on>
+        <value>0</value>
+        <variable display_value="morethan3">5ae96fad471021105c9fb616536d43fa</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1ae96fad471021105c9fb616536d43bd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>morethan3</field>
+        <id>1ae96fad471021105c9fb616536d43bd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:56</sys_created_on>
+        <sys_id>9ae9afad471021105c9fb616536d4304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:13:56</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1ae96fad471021105c9fb616536d43bd</table>
+        <value>{{step[6322acc7-fdb0-43b3-a38b-133ecac2dca7].morethan3}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>1ae96fad471021105c9fb616536d43bd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:56</sys_created_on>
+        <sys_id>12e9afad471021105c9fb616536d4305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:13:56</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1ae96fad471021105c9fb616536d43bd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>1ae96fad471021105c9fb616536d43bd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:56</sys_created_on>
+        <sys_id>5ee9afad471021105c9fb616536d4304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:13:56</sys_updated_on>
+        <table>var__m_sys_hub_action_output_1ae96fad471021105c9fb616536d43bd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=1ae96fad471021105c9fb616536d43bd^sys_idNOT IN9ee96fad471021105c9fb616536d43c8"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="checkDurationforBooking">1ae96fad471021105c9fb616536d43bd</action>
+        <cid>6322acc7-fdb0-43b3-a38b-133ecac2dca7</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:56</sys_created_on>
+        <sys_id>9ee96fad471021105c9fb616536d43c8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_updated_by>rutuja</sys_updated_by>
+        <sys_updated_on>2023-01-12 07:17:58</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9ee96fad471021105c9fb616536d43c8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9ee96fad471021105c9fb616536d43c8</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:56</sys_created_on>
+        <sys_id>1ae96fad471021105c9fb616536d43f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:13:56</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9ee96fad471021105c9fb616536d43c8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:56</sys_created_on>
+        <sys_id>1ee96fad471021105c9fb616536d43f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:13:56</sys_updated_on>
+        <value/>
+        <variable display_value="to">9ae96fad471021105c9fb616536d43cf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9ee96fad471021105c9fb616536d43c8</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:56</sys_created_on>
+        <sys_id>5ae96fad471021105c9fb616536d43f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:13:56</sys_updated_on>
+        <value/>
+        <variable display_value="From">92e96fad471021105c9fb616536d43cc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>9ee96fad471021105c9fb616536d43c8</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:56</sys_created_on>
+        <sys_id>dae96fad471021105c9fb616536d43f2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>rutuja</sys_updated_by>
+        <sys_updated_on>2023-01-12 07:17:58</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  var glideFrom = new GlideDateTime(inputs.From);
+  var glideTo = new GlideDateTime(inputs.to);
+  var dur = GlideDateTime.subtract(glideFrom, glideTo);
+
+  var hour = dur.getByFormat('HH'); //get hour part
+  hour=parseInt(hour,10);
+  gs.info("hour::7 "+hour);
+  gs.info("typeof hour::"+ typeof(hour));  
+  gs.info("hour==4 "+ hour==4);
+  if(hour&gt;=3){
+    gs.info("line 10::");
+    outputs.morethan3 =true;
+    gs.info("outputs.moreThan3 : "+outputs.morethan3);
+  }
+  else
+  {outputs.morethan3= false; 
+  }
+  gs.info("outputs.moreThan3 : "+outputs.morethan3);
+
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9ee96fad471021105c9fb616536d43c8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>9ee96fad471021105c9fb616536d43c8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:56</sys_created_on>
+        <sys_id>d2e96fad471021105c9fb616536d43f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:13:56</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>From</field>
+        <id>9ee96fad471021105c9fb616536d43c8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:56</sys_created_on>
+        <sys_id>16e96fad471021105c9fb616536d43f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:13:56</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_9ee96fad471021105c9fb616536d43c8</table>
+        <value>{{action.from}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>9ee96fad471021105c9fb616536d43c8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:56</sys_created_on>
+        <sys_id>96e96fad471021105c9fb616536d43f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:13:56</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>to</field>
+        <id>9ee96fad471021105c9fb616536d43c8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:56</sys_created_on>
+        <sys_id>d6e96fad471021105c9fb616536d43f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:13:56</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_9ee96fad471021105c9fb616536d43c8</table>
+        <value>{{action.to}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_9ee96fad471021105c9fb616536d43c8^id=9ee96fad471021105c9fb616536d43c8"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=9ee96fad471021105c9fb616536d43c8"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=9ee96fad471021105c9fb616536d43c8^sys_idNOT IN92e96fad471021105c9fb616536d43cc,9ae96fad471021105c9fb616536d43cf"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=calendar_date_time,uiTypeLabel=Calendar Date/Time</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>From</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">calendar_date_time</internal_type>
+        <label>From</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">9ee96fad471021105c9fb616536d43c8</model>
+        <model_id>9ee96fad471021105c9fb616536d43c8</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_9ee96fad471021105c9fb616536d43c8</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:56</sys_created_on>
+        <sys_id>92e96fad471021105c9fb616536d43cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:13:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=calendar_date_time,uiTypeLabel=Calendar Date/Time</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>to</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">calendar_date_time</internal_type>
+        <label>to</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">9ee96fad471021105c9fb616536d43c8</model>
+        <model_id>9ee96fad471021105c9fb616536d43c8</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_9ee96fad471021105c9fb616536d43c8</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:56</sys_created_on>
+        <sys_id>9ae96fad471021105c9fb616536d43cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:13:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=9ee96fad471021105c9fb616536d43c8^sys_idNOT INdee96fad471021105c9fb616536d43eb"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=637b9d09-2bab-4438-b902-536dcff9e100</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>morethan3</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>morethan3</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Script step">9ee96fad471021105c9fb616536d43c8</model>
+        <model_id>9ee96fad471021105c9fb616536d43c8</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_9ee96fad471021105c9fb616536d43c8</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:56</sys_created_on>
+        <sys_id>dee96fad471021105c9fb616536d43eb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>rutuja</sys_updated_by>
+        <sys_updated_on>2023-01-12 07:17:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9ee96fad471021105c9fb616536d43c8"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_9ee96fad471021105c9fb616536d43c8^sys_idNOT IN1ee96fad471021105c9fb616536d43ee"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>morethan3</element>
+        <help/>
+        <hint/>
+        <label>morethan3</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_9ee96fad471021105c9fb616536d43c8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:56</sys_created_on>
+        <sys_id>1ee96fad471021105c9fb616536d43ee</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Conference Room Booking" source="x_795232_conferenc">59399a5b472311105c9fb616536d4368</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>rutuja</sys_updated_by>
+        <sys_updated_on>2023-01-12 07:17:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=1ae96fad471021105c9fb616536d43bd^sys_idNOT IN530e2fa1475021105c9fb616536d439b,cf0e2fa1475021105c9fb616536d438f"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_date_time,uiTypeLabel=Date/Time,uiUniqueId=caf9110e-1bd6-4e99-ad1b-0a43dd38b808</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>to</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_date_time</internal_type>
+        <label>to</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="checkDurationforBooking">1ae96fad471021105c9fb616536d43bd</model>
+        <model_id>1ae96fad471021105c9fb616536d43bd</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_1ae96fad471021105c9fb616536d43bd</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:32:01</sys_created_on>
+        <sys_id>530e2fa1475021105c9fb616536d439b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:32:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=530e2fa1475021105c9fb616536d439b"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_date_time,uiTypeLabel=Date/Time,uiUniqueId=84e159ac-fea6-4c60-95cb-15ed9dbc40ba</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>from</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_date_time</internal_type>
+        <label>From</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="checkDurationforBooking">1ae96fad471021105c9fb616536d43bd</model>
+        <model_id>1ae96fad471021105c9fb616536d43bd</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_1ae96fad471021105c9fb616536d43bd</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:32:01</sys_created_on>
+        <sys_id>cf0e2fa1475021105c9fb616536d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:32:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=cf0e2fa1475021105c9fb616536d438f"/>
+    <sys_hub_action_output action="delete_multiple" query="model=1ae96fad471021105c9fb616536d43bd^sys_idNOT IN12e96fad471021105c9fb616536d43fe,5ae96fad471021105c9fb616536d43f6,5ae96fad471021105c9fb616536d43fa"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=00713731-01eb-4668-a09b-298eb7334050,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="checkDurationforBooking">1ae96fad471021105c9fb616536d43bd</model>
+        <model_id>1ae96fad471021105c9fb616536d43bd</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_1ae96fad471021105c9fb616536d43bd</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:56</sys_created_on>
+        <sys_id>12e96fad471021105c9fb616536d43fe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:13:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=12e96fad471021105c9fb616536d43fe"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=12e96fad471021105c9fb616536d43fe"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=1cd899ba-2c22-4b45-899f-f05c2a7d4629</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="checkDurationforBooking">1ae96fad471021105c9fb616536d43bd</model>
+        <model_id>1ae96fad471021105c9fb616536d43bd</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_1ae96fad471021105c9fb616536d43bd</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:56</sys_created_on>
+        <sys_id>5ae96fad471021105c9fb616536d43f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:13:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5ae96fad471021105c9fb616536d43f6"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5ae96fad471021105c9fb616536d43f6"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=c4439bb2-6917-4cb0-9531-1e4d6d079f07</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>morethan3</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>morethan3</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="checkDurationforBooking">1ae96fad471021105c9fb616536d43bd</model>
+        <model_id>1ae96fad471021105c9fb616536d43bd</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_1ae96fad471021105c9fb616536d43bd</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:56</sys_created_on>
+        <sys_id>5ae96fad471021105c9fb616536d43fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:13:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5ae96fad471021105c9fb616536d43fa"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5ae96fad471021105c9fb616536d43fa"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=1ae96fad471021105c9fb616536d43bd"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=1ae96fad471021105c9fb616536d43bd^sys_idNOT IN1ee9afad471021105c9fb616536d4307"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="checkDurationforBooking">1ae96fad471021105c9fb616536d43bd</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:56</sys_created_on>
+        <sys_id>1ee9afad471021105c9fb616536d4307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:13:56</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=1ee9afad471021105c9fb616536d4307"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_1ae96fad471021105c9fb616536d43bd^sys_idNOT IN930e2fa1475021105c9fb616536d4393,9f0e2fa1475021105c9fb616536d439d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>from</element>
+        <help/>
+        <hint/>
+        <label>From</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_1ae96fad471021105c9fb616536d43bd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:32:01</sys_created_on>
+        <sys_id>930e2fa1475021105c9fb616536d4393</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Conference Room Booking" source="x_795232_conferenc">59399a5b472311105c9fb616536d4368</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:32:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>to</element>
+        <help/>
+        <hint/>
+        <label>to</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_1ae96fad471021105c9fb616536d43bd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:32:01</sys_created_on>
+        <sys_id>9f0e2fa1475021105c9fb616536d439d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Conference Room Booking" source="x_795232_conferenc">59399a5b472311105c9fb616536d4368</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:32:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_1ae96fad471021105c9fb616536d43bd"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_1ae96fad471021105c9fb616536d43bd^sys_idNOT IN56e96fad471021105c9fb616536d43fd,9ee96fad471021105c9fb616536d43f9,d2e9afad471021105c9fb616536d4302"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>morethan3</element>
+        <help/>
+        <hint/>
+        <label>morethan3</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_1ae96fad471021105c9fb616536d43bd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:56</sys_created_on>
+        <sys_id>56e96fad471021105c9fb616536d43fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Conference Room Booking" source="x_795232_conferenc">59399a5b472311105c9fb616536d4368</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:13:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_1ae96fad471021105c9fb616536d43bd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:56</sys_created_on>
+        <sys_id>9ee96fad471021105c9fb616536d43f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Conference Room Booking" source="x_795232_conferenc">59399a5b472311105c9fb616536d4368</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:13:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_1ae96fad471021105c9fb616536d43bd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-10 07:13:56</sys_created_on>
+        <sys_id>d2e9afad471021105c9fb616536d4302</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Conference Room Booking" source="x_795232_conferenc">59399a5b472311105c9fb616536d4368</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-10 07:13:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_1ae96fad471021105c9fb616536d43bd"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>fa5e9464475021105c9fb616536d43bc</sys_id>
+        <latest_snapshot>1ae96fad471021105c9fb616536d43bd</latest_snapshot>
+        <compiler_build>glide-tokyo-07-08-2022__patch1-09-01-2022_09-16-2022_1610.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

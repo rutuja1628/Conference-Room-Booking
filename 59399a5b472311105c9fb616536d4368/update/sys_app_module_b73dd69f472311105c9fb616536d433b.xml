@@ -13,7 +13,7 @@
         <mobile_title>Conference Rooms</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name/>
-        <order>4</order>
+        <order>500</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>

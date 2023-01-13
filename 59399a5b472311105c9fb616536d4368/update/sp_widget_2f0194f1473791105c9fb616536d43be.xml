@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+	/* widget controller */
+	var c = this;
+	c.data.location = {value:'',displayValue:''};
+	c.data.isprojector = false;
+	c.data.iswhiteboard = false;
+
+	c.data.startdate ='';
+	c.data.enddate = ''; 
+	//{displayValue: '',value: '',name: ''}
+
+	
+	c.SearchRooms = function() {
+		c.server.update().then(function(){
+		})
+	}
+	
+};
+ 
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 37px auto 0;
+  width: calc(280px * 4);
+}
+
+.card {
+  box-shadow: 0 3px 10px 0 #aaa;
+  cursor: pointer;
+  height: 280px;
+  position: relative;
+  width: 243px;
+}
+
+.card h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card.visited {
+  box-shadow: 0 3px 10px 2px #444;
+}
+.card-header {
+  padding: 10px;
+  text-align: center;
+  background: #1F8476;
+  color: white;
+  font-size: 20px;
+}
+.bookRoombtn {
+  background-color: #1F8476;
+  color: white;
+  padding: 15px 25px;
+  position: relative;    
+    top: 31px;
+    left: 56px
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>booking_dropdown</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Booking Dropdown</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	/* populate the 'data' object */
+	/* e.g., data.table = $sp.getValue('table'); */
+	/*var rooms = new GlideRecord("x_795232_conferenc_conference_rooms");
+	data.reservations={};	
+	rooms.query();
+	while(rooms.next()){		
+		if(!data.reservations.hasOwnProperty(rooms.getDisplayValue("branch"))){
+			data.reservations[rooms.getDisplayValue("branch")]=[];
+		}
+		data.reservations[rooms.getDisplayValue("branch")].push(rooms.getValue('room_number'));
+	}*/
+	
+	data.obj=[];	
+	data.desiredRooms = [];
+	if(input){		
+		console.log('called');
+		//console.log(gs.getSession().getTimeZoneName());
+
+    data.fromDate=input.startdate;
+		data.toDate=input.enddate;
+		
+		var startdate = new GlideDateTime(input.startdate);
+		var enddate = new GlideDateTime(input.enddate);
+
+		var allRooms = new GlideRecord('x_795232_conferenc_conference_rooms');
+		
+		allRooms.addQuery('branch',input.location.value); //
+		
+		if(input.isprojector)
+			allRooms.addQuery('amenities', input.isprojector);
+		
+		if(input.iswhiteboard)
+			allRooms.addQuery('white_board', input.iswhiteboard);
+		
+		allRooms.query();
+		
+		while(allRooms.next()){
+     //console.log("Rooms" + allRooms.getDisplayValue());
+			
+			var slots = new GlideRecord('x_795232_conferenc_reservations');
+			//console.log(allRooms.getUniqueValue())
+			
+			//Query to find reservations that start within the timeframe
+			slots.addEncodedQuery('start_time>='+startdate+'^start_time<'+enddate+'^NQend_time>'+startdate+'^end_time<='+enddate+'^NQstart_time<='+startdate+'^end_time>='+enddate);
+			
+			slots.addQuery('room', allRooms.getUniqueValue()); //fetching sysid of rooms since its a reference field
+			
+			//slots.addEncodedQuery('start_time>=javascript:gs.dateGenerate('+startdate+')^start_time<javascript:gs.dateGenerate('+enddate+')^NQend_time>javascript:gs.dateGenerate('+enddate+')^end_time<=javascript:gs.dateGenerate('+enddate+')^NQstart_time<javascript:gs.dateGenerate('+startdate+')^end_time>javascript:gs.dateGenerate('+enddate+')');
+			
+			slots.query();
+			if(!slots.hasNext())
+
+			{
+				//	console.log('in slots.hasnext');
+					avRoom={}
+					avRoom.name = allRooms.getDisplayValue();
+					avRoom.floor = allRooms.getValue('floor');
+					avRoom.projector = allRooms.getValue('amenities');
+					avRoom.whiteboard = allRooms.getValue('white_board');
+					avRoom.capacity = allRooms.getValue('capacity');
+					avRoom.sysid=allRooms.getUniqueValue();
+					data.obj.push(avRoom);
+				}
+		
+    	else
+				{
+					console.log("unavailable")
+					//slots.next();
+					//data.obj.push({'room': slots.getDisplayValue('room'), 'start': slots.getValue('start_time')})
+				}
+			
+		}
+			console.log(data)
+	}
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-16 13:33:33</sys_created_on>
+        <sys_id>2f0194f1473791105c9fb616536d43be</sys_id>
+        <sys_name>Booking Dropdown</sys_name>
+        <sys_package display_value="Conference Room Booking" source="x_795232_conferenc">59399a5b472311105c9fb616536d4368</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name>sp_widget_2f0194f1473791105c9fb616536d43be</sys_update_name>
+        <template><![CDATA[<div>
+  <h1>
+    Book your conference room here
+  </h1>
+  <sn-record-picker id="location_input"  field="data.location" table="'x_795232_conferenc_location'"display-field="'location'" value-field="'sys_id'" search-fields="'location'" page-size="30">
+  </sn-record-picker>
+  <br>
+  <label><input  type="checkbox" ng-model=c.data.isprojector value="">Projector</label>
+  &nbsp;
+  <label><input type="checkbox" ng-model=c.data.iswhiteboard value="">White Board</label>
+  <hr>
+  <label>Start Date &nbsp; <sp-date-picker field="data.startdate"  ng-model="data.startdate" sn-change="" sn-include-time="true" ></sp-date-picker></label>
+  <br>
+  <label>End Date &nbsp; <sp-date-picker field="data.enddate"  ng-model="data.enddate" sn-change="" sn-include-time="true" ></sp-date-picker></label>
+  <br>
+
+
+
+  <button ng-click="c.SearchRooms()" ng-disabled ="c.isDisabled">
+    Search
+  </button>
+  
+
+  <div class="cards" ng-repeat="card in data.obj">
+    <div class="card">
+      <div class="card-header">
+        {{card.name}}
+      </div>
+      <div class="card-body">
+        <h2 class="card-title">Floor: {{card.floor}}</h2>
+        <p ng-if="card.projector>0">
+          Projector available
+        </p>
+        <p ng-if="card.whiteboard>0">
+          Whiteboard available
+        </p>
+        Capacity: {{card.capacity}}
+      </div>
+        <a target="_blank" class="bookRoombtn" href="?id=sc_cat_item&sys_id=ba54d0ab47e711105c9fb616536d43c2&sysparm_category=59ea6b17476711105c9fb616536d43f9&sysparm_room_sysid={{card.sysid}}&sysparm_from_datetime={{data.fromDate}}&sysparm_to_datetime={{data.toDate}}"
+        >Book Room</a>  
+
+    </div>
+    
+  </div>
+ 
+</div>]]></template>
+    </sp_widget>
+</record_update>

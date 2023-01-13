@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="Conference Room Booking Dashboard">815d5f16479421105c9fb616536d43df</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-12 14:15:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3c8d9f16479421105c9fb616536d4332</sys_id>
+        <sys_name>815d5f16479421105c9fb616536d43df</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Conference Room Booking" source="x_795232_conferenc">59399a5b472311105c9fb616536d4368</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_3c8d9f16479421105c9fb616536d4332</sys_update_name>
+        <tab display_value="Conference Room Book - New Tab">308d9f16479421105c9fb616536d4330</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

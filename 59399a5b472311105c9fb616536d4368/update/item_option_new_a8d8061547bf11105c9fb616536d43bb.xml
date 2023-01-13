@@ -35,17 +35,17 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>need_projector</name>
+        <name>description</name>
         <order>200</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Need Projector</question_text>
+        <question_text>Specify Reason</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -75,14 +75,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-12-15 09:00:51</sys_created_on>
         <sys_id>a8d8061547bf11105c9fb616536d43bb</sys_id>
-        <sys_name>Need Projector</sys_name>
+        <sys_name>Specify Reason</sys_name>
         <sys_package display_value="Conference Room Booking" source="x_795232_conferenc">59399a5b472311105c9fb616536d4368</sys_package>
         <sys_policy/>
         <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
         <sys_update_name>item_option_new_a8d8061547bf11105c9fb616536d43bb</sys_update_name>
         <table/>
         <tooltip/>
-        <type>7</type>
+        <type>2</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>

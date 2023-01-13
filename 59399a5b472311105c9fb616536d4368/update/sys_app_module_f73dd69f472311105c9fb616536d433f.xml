@@ -13,7 +13,7 @@
         <mobile_title>All</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_795232_conferenc_conference_rooms</name>
-        <order>6</order>
+        <order>700</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>

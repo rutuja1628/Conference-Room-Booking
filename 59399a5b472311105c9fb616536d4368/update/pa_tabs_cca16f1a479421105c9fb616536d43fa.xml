@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA Conference Room Book - New Tab 2">40a16f1a479421105c9fb616536d43f9</canvas_page>
+        <name>Specific Rooms</name>
+        <page display_value="PA Specific Rooms">f7916f1a479421105c9fb616536d43f8</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-12 14:33:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cca16f1a479421105c9fb616536d43fa</sys_id>
+        <sys_name>Specific Rooms</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Conference Room Booking" source="x_795232_conferenc">59399a5b472311105c9fb616536d4368</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name>pa_tabs_cca16f1a479421105c9fb616536d43fa</sys_update_name>
+    </pa_tabs>
+</record_update>
