@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_hp_reference">
+    <sys_ui_hp_reference action="INSERT_OR_UPDATE">
+        <publisher_reference display_value="Select Branch">4c126b5a479421105c9fb616536d43c2</publisher_reference>
+        <reference_field>room.branch</reference_field>
+        <reference_table>x_795232_conferenc_reservations</reference_table>
+        <sys_class_name>sys_ui_hp_reference</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-12 14:42:09</sys_created_on>
+        <sys_id>ed7363da479421105c9fb616536d4376</sys_id>
+        <sys_name>4c126b5a479421105c9fb616536d43c2</sys_name>
+        <sys_package display_value="Conference Room Booking" source="x_795232_conferenc">59399a5b472311105c9fb616536d4368</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Conference Room Booking">59399a5b472311105c9fb616536d4368</sys_scope>
+        <sys_update_name>sys_ui_hp_reference_ed7363da479421105c9fb616536d4376</sys_update_name>
+    </sys_ui_hp_reference>
+</record_update>

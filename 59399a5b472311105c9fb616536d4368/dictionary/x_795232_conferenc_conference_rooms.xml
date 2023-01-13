@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="867cda5f472311105c9fb616536d430f" label="Conference Rooms" max_length="40" name="x_795232_conferenc_conference_rooms" type="collection">
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Projector available" max_length="40" name="amenities" type="boolean">
-            <choice/>
-        </element>
+        <element attributes="edge_encryption_enabled=true" label="Projector available" max_length="40" name="amenities" type="boolean"/>
         <element attributes="encode_utf8=false" label="Branch" max_length="32" name="branch" reference="x_795232_conferenc_location" type="reference"/>
         <element label="Capacity" max_length="40" name="capacity" type="integer"/>
         <element label="Floor" max_length="40" name="floor" type="integer"/>
-        <element label="Room number" max_length="40" name="room_number" type="integer"/>
+        <element display="true" label="Room number" mandatory="true" max_length="25" name="room_number" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="White Board" max_length="40" name="white_board" type="boolean"/>
         <index name="index">
